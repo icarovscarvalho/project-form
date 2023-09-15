@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <main>
+        <section id="container">
+            <div id="box-image">
+            </div>
+            <div id="box-form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo novamente. Faça loguin para acessar sua conta e poder  fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="loguin-usuario">
+                        <label for="loguin"><span class="material-symbols-outlined">
+                            person
+                        </span></label>
+                        <input
+                        type="email"
+                        name="loguin"
+                        id="loguin"
+                        required
+                        placeholder="Digite o Email"
+                        autocomplete="username"
+                        minlength="5"
+                        maxlength="50"
+                        size="18"
+                        autocomplete="email">
+                    </div>
+                    <div class="loguin-senha">
+                        <label for="senha"><span class="material-symbols-outlined">
+                            key
+                        </span></label>
+                        <input
+                        type="password"
+                        name="senha"
+                        id="senha"
+                        required
+                        placeholder="Senha"
+                        minlength="8"
+                        maxlength="15"
+                        size="18"
+                        autocomplete="current-password">
+                    </div>
+                    <div class="loguin-entrar">
+                        <label for="send"></label>
+                        <input type="submit" value="Entrar">
+                    </div>
+                    <div class="loguin-recuperar-senha">
+                        <input type="button" value="Esqueci a Senha ✉">
+                    </div>
+                </form>
+                <img src="media/barry.png" alt="logo barry">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

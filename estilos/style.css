@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --corbase: #f0f8ff;
+    --cormenu:#0086c4;
+    --cor1: #0789b4;
+    --cor2: #36cdff;
+    --cor3: #91e0fa;
+}
+
+main {
+    height: 100vh;
+    background-color: var(--cor1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #0000009a;
+}
+
+#box-image {
+    background: url(../media/gelo.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+    width: 35vw;
+    max-width: 230px;
+    min-width: 220px;
+    height: 30vh;
+    max-height: 200px;
+    min-height: 150px;
+}
+
+#box-form {
+    background-color: var(--corbase);
+    border-radius: 0px 0px 15px 15px;
+    width: 35vw;
+    max-width: 230px;
+    min-width: 220px;
+    height: 50vh;
+    max-height: 350px;
+    min-height: 300px;
+    padding: 10px;
+    font-size: .9em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+#box-form h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#box-form p {
+    text-align: left;
+    font-size: .9em;
+}
+
+#box-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 210px;
+}
+
+.loguin-usuario {
+    width: 32vw;
+    max-width: 210px;
+    min-width: 210px;
+    padding: 2px 2px;
+    background-color: var(--cormenu);
+    border-radius: 4px;
+    border: none;
+    text-align: right;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loguin-usuario span{
+    margin-left: 9px;
+    color: var(--corbase);
+    cursor: pointer;
+}
+
+.loguin-usuario input {
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+}
+
+.loguin-senha {
+    width: 32vw;
+    max-width: 210px;
+    min-width: 210px;
+    padding: 2px 2px;
+    background-color: var(--cormenu);
+    border-radius: 4px;
+    border: none;
+    text-align: right;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loguin-senha span {
+    margin-left: 9px;
+    color: var(--corbase);
+    cursor: pointer;
+}
+
+.loguin-senha input {
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+}
+
+.loguin-entrar input {
+    width: 32vw;
+    max-width: 210px;
+    min-width: 210px;
+    padding: 8px 0px;
+    background-color: var(--cor3);
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.loguin-entrar input:hover {
+    background-color: var(--cormenu);
+    color: var(--corbase);
+}
+
+.loguin-entrar input:active {
+    background-color: var(--cor3);
+    color: var(--corbase);
+}
+
+.loguin-recuperar-senha input {
+    width: 32vw;
+    max-width: 210px;
+    min-width: 210px;
+    padding: 8px 0px;
+    background-color: var(--corbase);
+    border-radius: 4px;
+    border: 1px solid var(--cormenu);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.loguin-recuperar-senha input:hover {
+    background-color: var(--cormenu);
+    color: var(--corbase);
+}
+
+.loguin-recuperar-senha input:active {
+    background-color: var(--cor3);
+    color: var(--corbase);
+}
+
+#box-form img{
+    padding: 5px;
+    width: 35px;
+    border: 1px solid var(--cormenu);
+    border-radius: 50%;
+}
