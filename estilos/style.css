@@ -33,19 +33,19 @@ main {
     background: url(../media/gelo.jpg) no-repeat;
     background-size: cover;
     border-radius: 15px 15px 0px 0px;
-    width: 35vw;
-    max-width: 230px;
+    width: 50vw;
+    /* max-width: 230px; */
     min-width: 220px;
     height: 30vh;
     max-height: 200px;
-    min-height: 150px;
+    min-height: 200px;
 }
 
 #box-form {
     background-color: var(--corbase);
     border-radius: 0px 0px 15px 15px;
-    width: 35vw;
-    max-width: 230px;
+    width: 50vw;
+    /* max-width: 230px; */
     min-width: 220px;
     height: 50vh;
     max-height: 350px;

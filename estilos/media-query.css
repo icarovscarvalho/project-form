@@ -16,12 +16,13 @@ Grandes Telas: acimas de 1200p
     #container{
         width: 90vw;
         height: 50vh;
+        min-height: 300px;
         display: flex;
         transition: width .5s, height .3s;
     }
 
     #box-image{
-        width: 30vw;
+        width: 100vw;
         height: 50vh;
         max-width: none;
         max-height: none;
@@ -34,7 +35,6 @@ Grandes Telas: acimas de 1200p
         height: 50vh;
         max-width: none;
         max-height: none;
-        max-width: none;
         border-radius: 0px 15px 15px 0px;
     }
 
@@ -60,12 +60,12 @@ Grandes Telas: acimas de 1200p
     }
 
     #box-image {
-        width: 60vw;
+        width: 100vw;
         height: 70vh;
         max-width: none;
         max-height: none;
         background-size: cover;
-        border-radius: 0px 15px 15px 15px;
+        border-radius: 0px 15px 15px 0px;
     }
 
     #box-form {
@@ -99,12 +99,12 @@ Grandes Telas: acimas de 1200p
     }
 
     #box-image {
-        width: 60vw;
+        width: 100vw;
         height: 70vh;
         max-width: none;
         max-height: none;
         background-size: cover;
-        border-radius: 0px 15px 15px 15px;
+        border-radius: 0px 15px 15px 0px;
     }
 
     #box-form {
